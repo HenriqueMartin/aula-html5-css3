@@ -3,17 +3,19 @@
     <head>
         <meta charset="utf-8">
         <title>Minha pagina</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
     </head>
 
     <body>
       <nav>
           <p>Minha pagina</p>
         <ul>
-            <li>Servicos</li>
-            <li>Clientes</li>
-            <li>Parceiros</li>
-            <li>Time</li>
-            <li>Contato</li>
+            <li><a href="#Servicos">Servicos</a></li>
+            <li><a href="#Clientes">Clientes</a></li>
+            <li><a href="#Parceiros">Parceiros</a></li>
+            <li><a href="#Time">Time</a></li>
+            <li><a href="#Contato">Contato</a></li>
         </ul>       
     </nav>
 
@@ -27,14 +29,71 @@
     <section id="Servicos">
         <h2>SERVICOS</h2>
         <p>Oferecemos os melhores servicos em desenvolvimento de sites e aplicativos</p>
-        <img src="img/Site.jpeg" width="300px">
-    </section id="Clientes">
+            <div>
+                <img src="img/Site.jpeg" class="img_padrao">
+            </div>
+            <div>
+                <img src="img/app.jpeg" class="img_padrao">
+            </div>
+    </section>
+    <section id="Clientes">
+
     <h2>Clientes</h2>
     <p>Nossos clientes ficaram muito satisfeitos com nossos servicos</p>
-    <section>
+        <div>
+            <img src="img/clientes.jpg " class="img_padrao">
+        </div>
+        <div> 
+            <img src="img/clientes1.jpg" class="img_padrao">
+        </div>
+    </section>
+    <section id= "Parceiros">
+        <h2>Parceiros</h2>
+        <p>
+            Nossos parceiros nos ajudam a entregar melhor para os clientes
+        </p>
+            <div>
+              <a href="https://www.microsoft.com/pt-br" target="_blank">
+                <img src="img/microsoft.jpg" width="300px" class="img_padrao"></a>
+            </div>
+            <div>
+               <a href="https://digitalinnovation.one/" target="_blank">
+                 <img src="img/digitalone.png" width="300px" class="img_padrao">
+                </a>
+            </div>
 
+    <section id="Time">
+        <h2>Time</h2>
+        <p> 
+            Nosso time trabalha com muita qualidade e empenho para entregar o melhor
+            produto para nossos clientes.
+        </p>
+            <div>
+                <img src="img/email.jpg" width="150px">                
+            </div>
+            <div>
+                <img src="img/fone.png" width="150px">
+            </div>
 
     </section>
+    <section id="Contato">
+        <h2>Contato</h2>
+        <p>
+            Entre em contato com nossa equipe
+        </p>
+        <div>
+            <img src="img/email.jpg" class="logo">
+            <p><a href="mailto:contato@empresa.com"> contato @empresa.com</a></p>
+        </div>
+        <div>
+            <img src="img/fone.png" class="logo">
+            <p><a href="tel:9999999999">(99)9999-9999</a></p>
+       </div>
+    </section>
+
+    </section>
+
+
 
     <footer>
         Desenvolvido por Henrique Oliveira
